@@ -1,7 +1,10 @@
 ---
 layout: post
 author: tyson
-title: Analysing a composite video signal - Part 1
+title: Making a composite video signal monochrome
+tags: experiment microcontroller electronics analog
+
+series_title: Capturing composite video with a microcontroller
 ---
 Let's see how much of a composite video signal, in this case from an old DVD player, can be retrieved using a Tiva C Launchpad (TM4C123GH6PM). This MCU is not a great choice for sampling such a signal: its ADC will not be able to keep up with the speed at which a CRT sweeps a scanline. However, a low resolution image might be possible if the signal is sampled as fast as possible.
 
