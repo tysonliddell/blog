@@ -3,6 +3,8 @@ exclude:
 
 baseurl: /blog
 
+timezone: Europe/London
+
 defaults:
   - scope:
       path: ""
