@@ -23,3 +23,17 @@
         margin-top: 0px;
     }
 }
+
+.cited-references {
+    ol {
+        // numbers already included as part of bibliography when using numbered citations
+        list-style-type: none;
+        padding-left: 25px;
+    }
+}
+
+.citation {
+    // don't underline in-text citation number links, and shrink the displayed citation number
+    text-decoration: none;
+    font-size: small;
+}

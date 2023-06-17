@@ -11,4 +11,12 @@ layout: default
 
 {{ content }}
 
+{% capture ref_count%}{% bibliography_count --cited_in_order %}{% endcapture %}
+{% if ref_count != "0" %}
+<div class="cited-references">
+<h2 id="references">References</h2>
+{% bibliography --cited_in_order %}
+</div>
+{% endif %}
+
 {% include tags.html %}
