@@ -5,6 +5,7 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.png' | relative_url }}">
+    {% if page.usemathjax %}{% include mathjax.html %}{% endif %}
   </head>
   <body>
     {% include navigation.html %}

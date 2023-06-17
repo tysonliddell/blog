@@ -15,3 +15,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins: ['jekyll/scholar']
+
+scholar:
+  style: apa-numeric-superscript-brackets
