@@ -4,9 +4,7 @@
 
 .series-links {
     font-style: italic;
-
     background-color: lightgray;
-    display: inline-block;
 
     :first-child {
         margin-top: 0px;
@@ -36,4 +34,13 @@
     // don't underline in-text citation number links, and shrink the displayed citation number
     text-decoration: none;
     font-size: small;
+}
+
+.post-container {
+    max-width: 650px;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+    }
 }
