@@ -20,3 +20,19 @@ plugins: ['jekyll/scholar']
 
 scholar:
   style: apa-numeric-superscript-brackets
+
+collections_dir:  collections
+
+collections:
+  grimmett_prob_and_random_processes_solutions:
+    output: true
+    is_solution_collection: true
+    title: "Probability and Random Processes, Third Edition: Solutions to exercises"
+    source: "Probability and Random Processes"
+    source_author: "Grimmett, G. and Stirzaker, D."
+  blitzstein_intro_to_probability_solutions:
+    output: true
+    is_solution_collection: true
+    title: "Introduction to Probability, Second Edition: Solutions to exercises"
+    source: "Introduction to Probability Second Edition"
+    source_author: "Blizstein, J. K. and Hwang, J."
