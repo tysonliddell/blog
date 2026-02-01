@@ -53,9 +53,9 @@ relative frequency property. Most of the probability axioms fall out naturally:
   disjoint, $$\prob(A_1 \cup \ldots \cup A_n) = \prob(A_1) + \ldots +
   \prob(A_n)$$.
 
-Why should we go any further than these three axioms above? Countable additivity
-would require that for any countable collection of disjoint events $$A_1, A_2,
-\ldots \in \mathcal{F}$$, the probability function satisfies
+Why should we go any further than these three axioms above? Countable
+additivity would require that for any countable collection of disjoint events
+$$A_1, A_2, \ldots \in \mathcal{F}$$, the probability function satisfies
 $$\prob(\cup_{i}A_i) = \sum_i\prob(A_i)$$, and this requirement is included in
 most frameworks of probability theory, starting with Kolmogorov. However, we
 don't always need this property when trying to reason about probabilities

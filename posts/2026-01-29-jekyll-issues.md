@@ -1,10 +1,11 @@
----
+--------------------------------------
+
 layout: post
 author: tyson
 title: "Static site generation issues"
-
 tags: misc
----
+
+--------------------------------------
 
 I tried to get this blog up and running again after it lay dormant for a few
 years. Unfortunatly, I ran into a few issues:

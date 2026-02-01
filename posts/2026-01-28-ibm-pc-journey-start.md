@@ -7,6 +7,7 @@ tags: 8088 IBM-PC
 
 series_title: Fun with the x86 - Programming the IBM
 ---
+# Down the Rabbit Hole
 
 ## Background
 I've gone down a deep rabbit hole recently as my low-level programming
