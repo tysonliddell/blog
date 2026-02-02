@@ -4,14 +4,18 @@ TEMPLATE := template2
 
 POSTS := $(patsubst %.md,$(SITE)/%.html,$(wildcard posts/*.md))
 IMAGES := $(patsubst %,$(SITE)/%,$(wildcard assets/images/*))
+FONTS := $(patsubst %,$(SITE)/%,$(wildcard assets/fonts/*))
 
 .PHONY: all
-all: $(POSTS) $(IMAGES) tags
+all: $(POSTS) $(IMAGES) $(FONTS) tags
 
 $(SITE)/posts/%.html: posts/%.md $(TEMPLATE) $(HTML_GEN_PROG) | $(SITE)/posts
 	$(HTML_GEN_PROG) $< > $@
 
 $(SITE)/assets/images/%: assets/images/% | $(SITE)/assets/images
+	cp $< $@
+
+$(SITE)/assets/fonts/%: assets/fonts/% | $(SITE)/assets/fonts
 	cp $< $@
 
 .PHONY: tags
@@ -26,6 +30,9 @@ $(SITE)/posts:
 
 $(SITE)/assets/images:
 	mkdir -p $(SITE)/assets/images
+
+$(SITE)/assets/fonts:
+	mkdir -p $(SITE)/assets/fonts
 
 $(SITE)/tags:
 	mkdir -p $(SITE)/tags
