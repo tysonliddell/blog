@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blog post</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      max-width: 42rem;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+
+    pre {
+      padding: 1rem;
+      overflow-x: auto;
+      background: #f6f8fa;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, monospace;
+    }
+  </style>
+</head>
+<body>
+
+{{ content }}
+
+</body>
+</html>

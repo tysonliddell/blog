@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+
+
+  <style>
+    body {
+      max-width: 40em;
+      margin: 2em auto;
+      padding: 0 1em;
+
+      background: #000;
+      color: #ffb000;
+
+      font-family: monospace;
+      line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+      color: #ffbf40;
+      line-height: 1.2;
+    }
+
+    a {
+      color: #ffd27f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    pre {
+      padding: 0.75em;
+      overflow-x: auto;
+      background: #000;
+      border: 1px solid #553300;
+    }
+
+    code {
+      font-family: monospace;
+      color: #ffbf40;
+    }
+  </style>
+
+</head>
+<body>
+
+{{ content }}
+
+</body>
+</html>
+

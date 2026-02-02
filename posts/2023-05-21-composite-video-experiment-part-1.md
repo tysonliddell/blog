@@ -1,8 +1,8 @@
----
+```text
 author: Tyson Liddell
 tags: capturing-composite-video-with-a-microcontroller
----
-tags: capturing-composite-video-with-a-microcontroller
+```
+
 # Making a composite video signal monochrome
 Let's see how much of a composite video signal, in this case from an old DVD
 player, can be retrieved using a Tiva C Launchpad (TM4C123GH6PM). This MCU is

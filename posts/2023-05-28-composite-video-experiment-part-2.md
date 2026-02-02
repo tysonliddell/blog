@@ -1,6 +1,5 @@
 ---
-layout: post
-author: tyson
+author: Tyson Liddell
 title: "Timers and interrupts: Counting sync pulses"
 tags: experiment microcontroller electronics analog timer interrupt comparator
 
