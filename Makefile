@@ -14,6 +14,7 @@ $(SITE)/posts/%.html: posts/%.md $(TEMPLATE) $(HTML_GEN_PROG) | $(SITE)/posts
 
 $(SITE)/assets/images/%: assets/images/% | $(SITE)/assets/images
 	cp $< $@
+	cp $(SITE)/assets/images/favicon.png $(SITE)/favicon.png
 
 $(SITE)/assets/fonts/%: assets/fonts/% | $(SITE)/assets/fonts
 	cp $< $@
