@@ -130,7 +130,7 @@ Here is a quick recap of what went into obtaining the image above:
 [p4-uart]: 2023-06-04-composite-video-experiment-part-4.html#uart-considerations
 [byte-stuffing]: https://eli.thegreenplace.net/2009/08/12/framing-in-serial-communications
 [cobs]: https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
-[xmodem]: https://techheap.packetizer.com/communication/modems/xmodem.html
-[xmodem-crc]: https://techheap.packetizer.com/communication/modems/xmodem-ymodem_reference.html
+[xmodem]: https://techheap.packetizer.com/communications/modems/xmodem.html
+[xmodem-crc]: https://techheap.packetizer.com/communications/modems/xmodem-ymodem_reference.html
 [lrzsz]: https://www.ohse.de/uwe/software/lrzsz.html
 
