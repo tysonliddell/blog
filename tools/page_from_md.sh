@@ -1,4 +1,4 @@
-TEMPLATE=./template2
+TEMPLATE=./templates/template2
 MD_TO_HTML=../../md-to-html/md-to-html
 
 # Grab title and strip "# " prefix.
