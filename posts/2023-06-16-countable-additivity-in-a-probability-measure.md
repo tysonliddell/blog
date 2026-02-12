@@ -1,12 +1,8 @@
----
-layout: post
-author: tyson
-title: "Why do probability functions need to be countably additive?"
-
+```text
+author: Tyson Liddell
 tags: mathematics probability
-
-usemathjax: true
----
+```
+# Why do probability functions need to be countably additive?
 
 The Kolmogorov axioms of probability include the requirement for countable
 additivity. That is, for disjoint sets $$A_1, A_2, \ldots \subset \Om$$, the

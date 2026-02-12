@@ -1,12 +1,8 @@
----
-layout: post
-author: tyson
-title: "Speeding up UART data transfer: Capturing a monochrome video animation"
-
-tags: UART XMODEM
-
-series_title: Capturing composite video with a microcontroller
----
+```text
+author: Tyson Liddell
+tags: capturing-composite-video-with-a-microcontroller
+```
+# Speeding up UART data transfer: Capturing a monochrome video animation
 
 The baud rate of the UART on the TM4C123GH6PM was maxed out to 1500000 to send
 image data from the microcontroller to a laptop as quickly as possible.  Any

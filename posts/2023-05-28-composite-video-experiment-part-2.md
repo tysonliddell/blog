@@ -1,10 +1,8 @@
----
+```text
 author: Tyson Liddell
-title: "Timers and interrupts: Counting sync pulses"
-tags: experiment microcontroller electronics analog timer interrupt comparator
-
-series_title: Capturing composite video with a microcontroller
----
+tags: capturing-composite-video-with-a-microcontroller
+```
+# Timers and interrupts: Counting sync pulses
 
 There are only three reasons a PAL video signal can go to 0 volts in normal
 operation, all of which are related to syncing: a horizontal sync pulse, a

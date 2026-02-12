@@ -1,10 +1,10 @@
-# Test main page
-- [Posts]
-- [Projects]
-- [Tags]
-- [GitHub]
+# main
+- [posts]
+- [projects]
+- [tags]
+- [github]
 
-[Posts]: ./posts/index.html
-[Projects]: ./projects.html
-[Tags]: ./tags/index.html
-[GitHub]: https://github.com/tysonliddell
+[posts]: ./posts/index.html
+[projects]: ./projects.html
+[tags]: ./tags/index.html
+[github]: https://github.com/tysonliddell

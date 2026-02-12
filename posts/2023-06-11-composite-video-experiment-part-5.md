@@ -1,14 +1,8 @@
----
-layout: post
-author: tyson
-title: "Communicating reliably over UART: Adding an error detecting communication protocol"
-
-tags: CRC communication error-checking XMODEM protocol
-
-series_title: Capturing composite video with a microcontroller
----
-{% capture part3-url %}{%post_url 2023-06-02-composite-video-experiment-part-3 %}{%endcapture%}
-{% capture part4-url %}{%post_url 2023-06-04-composite-video-experiment-part-4 %}{%endcapture%}
+```text
+author: Tyson Liddell
+tags: capturing-composite-video-with-a-microcontroller
+```
+# Communicating reliably over UART: Adding an error detecting communication protocol
 
 Microcontrollers like the TM4C123GH6PM include UART (universal asynchronous
 receiver-transmitter) hardware. Two devices connected via UART can establish a

@@ -2,7 +2,6 @@
 author: Tyson Liddell
 tags: capturing-composite-video-with-a-microcontroller
 ```
-
 # Making a composite video signal monochrome
 Let's see how much of a composite video signal, in this case from an old DVD
 player, can be retrieved using a Tiva C Launchpad (TM4C123GH6PM). This MCU is
@@ -66,9 +65,6 @@ read by the ADC of the MCU, and a black-and-white image can be retrieved.
 - https://en.wikipedia.org/wiki/PAL
 - https://en.wikipedia.org/wiki/Composite_video
 - https://en.wikipedia.org/wiki/Quadrature_amplitude_modulation
-
-Tyson Liddell
-
 
 [colourburst-filtered]: ../assets/images/cv-experiment-colourburst_filtered.png
 [colourburst-unfiltered]: ../assets/images/cv-experiment-colourburst_unfiltered.png

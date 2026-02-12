@@ -1,13 +1,8 @@
----
-layout: post
-author: tyson
-title: "On the CDF of a linear function of a random variable"
-
+```text
+author: Tyson Liddell
 tags: mathematics probability
-
-usemathjax: true
----
-
+```
+# On the CDF of a linear function of a random variable
 ## A linear function of a random variable is a random variable
 
 Let $$X$$ be a random variable on $$(\Om, \mathcal{F}, \prob)$$. Then for $$a,b

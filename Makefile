@@ -25,7 +25,7 @@ $(SITE)/assets/fonts/%: assets/fonts/% | $(SITE)/assets/fonts
 .PHONY: posts
 posts: $(POSTS)
 	rm -f $(SITE)/posts/index.html
-	cd $(SITE)/posts && ls -r *.html | sed 's/\(.*\).html/- [\1](\1.html)/' | awk 'BEGIN {print "# Posts"} {print}' > index.md
+	cd $(SITE)/posts && ls -r *.html | sed 's/\(.*\).html/- [\1](\1.html)/' | awk 'BEGIN {print "# posts"} {print}' > index.md
 	$(HTML_GEN_PROG) $(SITE)/posts/index.md > $(SITE)/posts/index.html
 	rm $(SITE)/posts/index.md
 
@@ -38,7 +38,7 @@ tags: $(TEMPLATE) $(HTML_GEN_PROG) | $(SITE)/tags
 	rm -f $(SITE)/tags/*.tag
 	grep -r '^tags:' ./posts | sed 's/:tags://' | sed 's/\.md/.html/' | awk '{ for (i=2; i<=NF; i++) printf("%s %s\n", $$i, $$1) }' | sort -r | awk '{ basename = $$2; gsub(/.*\//,"",basename); gsub(/.html/,"",basename); system("printf \"%s [%s](../%s)%s\n\" \"-\" "basename" "$$2" >> $(SITE)/tags/"$$1".tag")}'
 	for f in $$(ls $(SITE)/tags/*.tag); do sed -i "1s/^/# $$(basename -s .tag $$f)\n/" $$f; $(HTML_GEN_PROG) $$f > $${f%.tag}.html; done
-	cd $(SITE)/tags && ls *.html | sed 's/\(.*\).html/- [\1](\1.html)/' | awk 'BEGIN {print "# Tags"} {print}' > index.tag
+	cd $(SITE)/tags && ls *.html | sed 's/\(.*\).html/- [\1](\1.html)/' | awk 'BEGIN {print "# tags"} {print}' > index.tag
 	$(HTML_GEN_PROG) $(SITE)/tags/index.tag > $(SITE)/tags/index.html
 	rm -f $(SITE)/tags/*.tag
 

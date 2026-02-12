@@ -1,11 +1,8 @@
----
-layout: post
-author: tyson
-title: "Implementing a cyclic redundancy check (CRC)"
-tags: mathematics CRC communication error-checking
-
-series_title: Capturing composite video with a microcontroller
----
+```text
+author: Tyson Liddell
+tags: capturing-composite-video-with-a-microcontroller
+```
+# Implementing a cyclic redundancy check (CRC)
 
 Data corruption is inevitable when sending bits along a wire. In the case of
 this project, sending the data collected for a single PAL field across UART, at

@@ -1,12 +1,8 @@
----
-layout: post
-author: tyson
-title: "Analog to digital: Sampling an active video signal"
-tags: experiment microcontroller electronics analog ADC
-
-series_title: Capturing composite video with a microcontroller
----
-{% capture part2-url %}{%post_url 2023-05-28-composite-video-experiment-part-2 %}{%endcapture%}
+```text
+author: Tyson Liddell
+tags: capturing-composite-video-with-a-microcontroller
+```
+# Analog to digital: Sampling an active video signal
 
 With the MCU now able to understand PAL video timing, the ADC can be configured
 to capture the active video of the scanlines. It is this part of the signal
