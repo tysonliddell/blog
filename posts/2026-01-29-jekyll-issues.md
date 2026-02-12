@@ -4,6 +4,8 @@ tags: misc
 ```
 # Static site generation issues
 
+*UPDATE: The following issues have since [been fixed][blog-fix].*
+
 I tried to get this blog up and running again after it lay dormant for a few
 years. Unfortunatly, I ran into a few issues:
 - The current setup uses the static site generator Jekyll to convert my
@@ -30,3 +32,5 @@ static site generator".
 TODO: Consider just keeping all thoughts together in pure Markdown. Do I need
 to convert these to HTML? Could I just have a single page with a list of links
 to raw `.md` files? Might be easiest.
+
+[blog-fix]: ./2026-02-12-debloating-the-blog.html
