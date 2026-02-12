@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blog post</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      max-width: 42rem;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      font-family: sans-serif;
+      line-height: 1.6;
+
+      background: #000;
+      color: #ffb000;
+    }
+
+    a {
+      color: #ffd27f;
+    }
+
+    a:visited {
+      color: #d08770;
+    }
+
+    pre {
+      padding: 1rem;
+      overflow-x: auto;
+      background: #000;
+      border: 1px solid #553300;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      color: #ffbf40;
+    }
+  </style>
+</head>
+<body>
+
+{{ content }}
+
+</body>
+</html>

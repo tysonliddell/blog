@@ -52,7 +52,7 @@ Using a Xilinx Pynq Z2 FPGA to implement the RISC-V RV32I CPU. Involves VHDL
 and a deep dive into computer architecture and digital design.
 
 [composite-video-decoded]: assets/images/cv-experiment-first_animation.gif
-[composite-video-writeups]: ./tags/capturing-composite-video-with-a-microcontroller
+[composite-video-writeups]: tags/capturing-composite-video-with-a-microcontroller.html
 [composite-video-repo]: https://github.com/tysonliddell/bare-metal-tiva
 [boot-sector-snake-repo]: https://github.com/tysonliddell/boot-sector-snake
 [scope-out]: assets/images/cv-experiment-colourburst_unfiltered.png

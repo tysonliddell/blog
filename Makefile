@@ -1,6 +1,6 @@
 SITE := ./site
 HTML_GEN_PROG := ./tools/page_from_md.sh
-TEMPLATE := ./templates/template2
+TEMPLATE := ./templates/template
 
 PAGES := $(patsubst pages/%.md,$(SITE)/%.html,$(wildcard pages/*.md))
 POSTS := $(patsubst %.md,$(SITE)/%.html,$(wildcard posts/*.md))
