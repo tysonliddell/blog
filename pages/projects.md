@@ -23,27 +23,33 @@ expected][composite-video-decoded].
 For detailed information see my [technical
 write-ups][composite-video-writeups].
 
-## Partying like it's 1981: Building an IBM PC booter game
+------------------------------------------------------------------------------
 
-**In progress...**
+## Partying like it's 1981: Building an IBM PC booter game
 
 What can you do with a limit of 512 bytes on your binary, no operating system,
 a 4.77Mhz 8086 CPU and 64 KB of RAM? More than you might think. This project
-explores the almost-forgotten world of "PC Booters" - games that squeeze into
+explores the almost-forgotten world of PC Booters - games that squeeze into
 the tiny boot sector of a floppy disk and run instead of the operating system.
 See the [git repo][boot-sector-snake-repo] for the detailed technical write up
 and further details.
+
+------------------------------------------------------------------------------
 
 ## CHIP-8 emulator
 [Implementation of a CHIP-8 emulator in Rust][chip8-github]. Here's a [screen
 capture][chip8-rom] of rock, paper, scissors ROM (made by
 [SystemLogoff][systemlogoff]) running in the emulator.
 
+------------------------------------------------------------------------------
+
 ## Ray tracing in Rust
 [Ray tracer][ray-tracer-github] implemented in rust. Produces pretty pictures like
 this:
 
 <img src="assets/images/rust-ray-tracer-result.jpg" alt="result-of-ray-tracer" width="500"/>
+
+------------------------------------------------------------------------------
 
 ## Building a CPU
 **In progress...**
